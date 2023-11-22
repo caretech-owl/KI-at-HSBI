@@ -16,7 +16,7 @@ jobs:
       - name: Install nbconvert
         run: pip install nbconvert
       - name: Convert Notebooks to HTML
-        run: jupyter nbconvert --output-dir=_site/ --to slides --reveal-prefix=. *.ipynb
+        run: bash scripts/generate.sh
       - name: Fix permissions
         run: |
           chmod -c -R +rX "_site/" | while read line; do

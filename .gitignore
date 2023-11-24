@@ -1,3 +1,4 @@
 .DS_Store
 _site/*.html
+_site/images
 .ipynb_checkpoints

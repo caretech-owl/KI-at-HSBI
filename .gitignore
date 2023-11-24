@@ -4,3 +4,4 @@ _site/*.html
 _site/images
 .ipynb_checkpoints
 a1111
+text_gen

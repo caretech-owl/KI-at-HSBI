@@ -12,7 +12,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   position: absolute;
   top: 0;
   left: 0rem;
-  width: 95%;
+  width: 98%;
   padding-left: 1rem;
 
   display: flex;
@@ -39,6 +39,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
   color: dimgrey;
   font-size: medium;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 

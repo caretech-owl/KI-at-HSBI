@@ -8,6 +8,40 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #fff;
 }
 
+.slidesHeader {
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  width: 100%;
+  padding-left: 1rem;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  color: dimgrey;
+  font-size: large;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.slidesFooter {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0rem;
+  padding-left: 1rem;
+  width: 90%;
+  
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+
+  color: dimgrey;
+  font-size: medium;
+}
+
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

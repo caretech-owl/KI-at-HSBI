@@ -16,4 +16,6 @@ jupyter nbconvert slides/*.ipynb \
     --to slides \
     --no-prompt \
     --reveal-prefix reveal \
-    --SlidesExporter.reveal_theme hsbi-cto
+    --TemplateExporter.extra_template_basedirs templates \
+    --SlidesExporter.reveal_theme hsbi-cto \
+    --template hsbi-cto

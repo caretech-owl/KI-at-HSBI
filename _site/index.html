@@ -26,12 +26,19 @@
         font-weight: 700;
         margin-bottom: 1rem;
       }
+      ol {
+        counter-reset: item
+      }
       li {
+        display: block;
         font-weight: 700;
+      }
+      li:before {
+        content: counters(item, ".") " ";
+        counter-increment: item
       }
       a {
         text-decoration: none;
-        display: block;
         margin-bottom: 1rem;
       }
       .header {
@@ -40,9 +47,6 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 2rem;
-      }
-      .segments > li {
-        margin-bottom: -0.5rem;
       }
       .footer {
         display: flex;
@@ -77,19 +81,43 @@
           </a>
         </li>
         <li>
-          <a
-            href="stable_diffusion_setup.slides.html"
-          >
-            Stable Diffusion - Setup
-          </a>
+          Stable Diffusion
+
+        <ol> 
+          <li>
+            <a
+              href="stable_diffusion_setup.slides.html"
+            >
+              Setup
+            </a>
+          </li>
+          <li>
+            <a
+              href="stable_diffusion_concept.slides.html"
+            >
+              Konzept
+            </a>
+          </li>
+        </ol>
         </li>
+        <li> Llama
+        <ol>
         <li>
           <a
             href="llama_setup.slides.html"
           >
-            Llama - Setup
+              Setup
           </a>
         </li>
+        <li>
+          <a
+            href="llama_concept.slides.html"
+          >
+            Konzept
+          </a>
+        </li>
+        </ol>
+      </li>
       </ol>
       <div class="spacer">
       </div>

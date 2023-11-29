@@ -21,7 +21,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   gap: 5px;
   color: dimgrey;
   font-size: large;
-  z-index: 10;
+  z-index: 20;
   pointer-events: auto;
 }
 
